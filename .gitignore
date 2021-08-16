@@ -1,0 +1,7 @@
+usage-data-config.json
+.env
+.sass-cache
+.DS_Store
+package-lock.json
+node_modules
+.vscode
