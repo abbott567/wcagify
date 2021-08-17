@@ -1,6 +1,6 @@
 # WCAGify Nunjucks Macro
 
-You can use wCAGify in your Nunjucks templates using a macro and filter. The macro needs a `string` value to work. For example:
+You can use WCAGify in your Nunjucks templates using a macro and filter. The macro needs a `string` value to work. For example:
 
 ```javascript
 // Nunjucks code
