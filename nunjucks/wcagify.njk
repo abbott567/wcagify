@@ -1,0 +1,9 @@
+{%- macro wcagify(string, params) -%}
+  {%- set wcagobj = string|wcagify -%}
+  {%- set id = ' id="' + params.id + '"' if params.id %}
+  {%- set class = ' class="' + params.class + '"' if params.class %}
+
+  <a {{-id|safe}} {{-class|safe}} href="{{wcagobj.link}}">
+    {{wcagobj.criterion}}
+  </a>
+{%- endmacro -%}
