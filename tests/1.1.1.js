@@ -8,7 +8,7 @@ const expectedResult = {
   name: 'Non-text Content',
   link: 'https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html',
   level: 'A',
-  affects: ''
+  impacts: ['Auditory', 'Visual']
 }
 
 describe(expectedResult.criterion, () => {
@@ -17,9 +17,9 @@ describe(expectedResult.criterion, () => {
     expect(test.level).to.equal(expectedResult.level)
   })
 
-  it(`should be level ${expectedResult.level}`, () => {
+  it(`should impact: "${expectedResult.impacts}"`, () => {
     const test = wcagify(expectedResult.criterion)
-    expect(test.level).to.equal(expectedResult.level)
+    expect(test.impacts).to.eql(expectedResult.impacts)
   })
 
   it(`should work with a correct reference and name: "${expectedResult.criterion}"`, () => {

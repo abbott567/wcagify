@@ -8,13 +8,18 @@ const expectedResult = {
   name: 'Content on Hover or Focus',
   link: 'https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html',
   level: 'AA',
-  affects: ''
+  impacts: ['Motor', 'Visual']
 }
 
 describe(expectedResult.criterion, () => {
   it(`should be level ${expectedResult.level}`, () => {
     const test = wcagify(expectedResult.criterion)
     expect(test.level).to.equal(expectedResult.level)
+  })
+
+  it(`should impact: "${expectedResult.impacts}"`, () => {
+    const test = wcagify(expectedResult.criterion)
+    expect(test.impacts).to.eql(expectedResult.impacts)
   })
 
   it(`should work with a correct reference and name: "${expectedResult.criterion}"`, () => {

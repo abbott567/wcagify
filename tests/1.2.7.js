@@ -8,13 +8,18 @@ const expectedResult = {
   name: 'Extended Audio Description (Prerecorded)',
   link: 'https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html',
   level: 'AAA',
-  affects: ''
+  impacts: ['Auditory', 'Cognitive', 'Visual']
 }
 
 describe(expectedResult.criterion, () => {
   it(`should be level ${expectedResult.level}`, () => {
     const test = wcagify(expectedResult.criterion)
     expect(test.level).to.equal(expectedResult.level)
+  })
+
+  it(`should impact: "${expectedResult.impacts}"`, () => {
+    const test = wcagify(expectedResult.criterion)
+    expect(test.impacts).to.eql(expectedResult.impacts)
   })
 
   it(`should work with a correct reference and name: "${expectedResult.criterion}"`, () => {

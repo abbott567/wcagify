@@ -32,7 +32,8 @@ wcagify('1.1.1 Potato')
   ref: '1.1.1',
   name: 'Non-text Content',
   link: 'https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html',
-  level: 'A'
+  level: 'A',
+  impacts: ['Auditory', 'Visual']
 }
 ```
 

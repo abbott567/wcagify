@@ -10,13 +10,14 @@ function wcagify (string) {
   if (!wcagMatch) throw notFound
 
   const ref = wcagMatch[1]
-  let name, slug, level
+  let name, slug, level, impacts
 
   criteria.forEach(criterion => {
     if (criterion.ref === ref) {
       name = criterion.name
       slug = slugify(criterion.name, { lower: true, strict: true })
       level = criterion.level
+      impacts = criterion.impacts
     }
   })
 
@@ -27,7 +28,8 @@ function wcagify (string) {
     ref,
     name,
     link: `${wcagpath}/${slug}.html`,
-    level
+    level,
+    impacts
   }
 }
 

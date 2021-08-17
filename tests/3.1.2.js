@@ -8,13 +8,18 @@ const expectedResult = {
   name: 'Language of Parts',
   link: 'https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html',
   level: 'AA',
-  affects: ''
+  impacts: ['Auditory', 'Cognitive', 'Visual']
 }
 
 describe(expectedResult.criterion, () => {
   it(`should be level ${expectedResult.level}`, () => {
     const test = wcagify(expectedResult.criterion)
     expect(test.level).to.equal(expectedResult.level)
+  })
+
+  it(`should impact: "${expectedResult.impacts}"`, () => {
+    const test = wcagify(expectedResult.criterion)
+    expect(test.impacts).to.eql(expectedResult.impacts)
   })
 
   it(`should work with a correct reference and name: "${expectedResult.criterion}"`, () => {

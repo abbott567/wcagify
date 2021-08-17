@@ -8,13 +8,18 @@ const expectedResult = {
   name: 'Change on Request',
   link: 'https://www.w3.org/WAI/WCAG21/Understanding/change-on-request.html',
   level: 'AAA',
-  affects: ''
+  impacts: ['Cognitive', 'Visual']
 }
 
 describe(expectedResult.criterion, () => {
   it(`should be level ${expectedResult.level}`, () => {
     const test = wcagify(expectedResult.criterion)
     expect(test.level).to.equal(expectedResult.level)
+  })
+
+  it(`should impact: "${expectedResult.impacts}"`, () => {
+    const test = wcagify(expectedResult.criterion)
+    expect(test.impacts).to.eql(expectedResult.impacts)
   })
 
   it(`should work with a correct reference and name: "${expectedResult.criterion}"`, () => {
