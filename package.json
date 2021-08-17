@@ -1,7 +1,7 @@
 {
   "name": "wcagify",
   "description": "A lookup for WCAG 2.1 references. Handy for those doing accessibility audits and are sick of the constant copying and pasting.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "wcagify.js",
   "scripts": {
     "test": "mocha"
