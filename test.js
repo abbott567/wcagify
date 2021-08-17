@@ -5,3 +5,6 @@ requireDir('./tests/wcagify-tests')
 
 // Run Nunjucks Macro tests
 requireDir('./tests/nunjucks-tests')
+
+// Run MarkedJS tests
+requireDir('./tests/markedjs-tests')

@@ -107,6 +107,38 @@ Lastly, import the macro into your Nunjucks template and use it. For example:
 }) }}
 ```
 
+### Markdown macro
+
+You can use WCAGify in your Markdown templates using [MarkedJS](https://www.npmjs.com/package/marked) as the renderer.
+
+```markdown
+<!-- Markdown code -->
+[1.1.1]({wcagify})
+```
+
+```html
+<!-- Output when compiled -->
+<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+  1.1.1 Non-text Content
+</a>
+```
+
+#### Installing the Markdown macro
+
+```javascript
+const wcagifyMarked = require('wcagify/markedjs')
+const marked = require('marked')
+
+// Create your renderer
+const renderer = new marked.Renderer()
+
+// Pass the renderer into apply the WCAGify macro
+wcagifyMarked(renderer)
+
+// Use your modified rendered with MarkedJS
+marked.setOptions({ renderer: renderer })
+```
+
 ## Tests
 
 ```
