@@ -8,6 +8,6 @@ describe('Errors', () => {
   })
 
   it('should throw an error if no ref is used: "Non-text Content"', () => {
-    expect(() => { wcagify('1.1.2') }).to.throw(Error)
+    expect(() => { wcagify('Non-text Content') }).to.throw(Error)
   })
 })
