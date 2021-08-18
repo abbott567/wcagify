@@ -5,7 +5,11 @@ function wcagifyMarked (renderer) {
     const iswcag = href.match(/{wcagify}/)
     if (iswcag) {
       const wcag = wcagify(text)
-      return `<a href="${wcag.link}">${wcag.criterion}</a>`
+      const titleAttr = (title && title.match(/{title}/)) ? `title="${wcag.criterion}"` : ''
+      return `<a href="${wcag.link}"${titleAttr}">${wcag.criterion}</a>`
+    } else {
+      const titleAttr = title ? ` title="${title}"` : ''
+      return `<a href="${href}"${titleAttr}>${text}</a>`
     }
   }
 }

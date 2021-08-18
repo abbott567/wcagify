@@ -5,3 +5,5 @@ usage-data-config.json
 package-lock.json
 node_modules
 .vscode
+.nyc_output
+coverage
