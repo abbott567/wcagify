@@ -51,7 +51,7 @@ You can use WCAGify in your Nunjucks templates using a filter. The filter needs 
 
 #### Installing the Nunjucks filter
 
-You need to expose the WCAGify function to Nunjucks as a simple filter. This wont make the macro work, this functionality just means we have the ability to call WCAGify from inside the macro and return the object which you can use for your own Nunjucks templates. For example `{{'1.1.1'|wcagify}}`. If you need to return formatted HTML, use the supplied Macro or write your own.
+You need to expose the WCAGify function to Nunjucks as a simple filter. This wont make the macro work, this functionality just means we have the ability to call WCAGify from inside Nunjucks templates and return the object which you can use for your own Nunjucks templates. For example `{{'1.1.1'|wcagify}}`. If you need to return formatted HTML, use the supplied Macro or write your own.
 
 An example `server.js` might look something like the following:
 
