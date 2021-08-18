@@ -37,9 +37,40 @@ wcagify('1.1.1 Potato')
 }
 ```
 
+### Nunjucks filter
+You can use WCAGify in your Nunjucks templates using a filter. The filter needs a `string` value to work. For example:
+
+```javascript
+{% set issue = '1.1.1'|wcagify %}
+
+{{issue.criterion}} // 1.1.1 Non-text Content
+{{issue.name}} // Non-text Content
+{{issue.ref}} // 1.1.1
+{{issue.url}} // https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html
+```
+
+#### Installing the Nunjucks filter
+
+You need to expose the WCAGify function to Nunjucks as a simple filter. This wont make the macro work, this functionality just means we have the ability to call WCAGify from inside the macro and return the object which you can use for your own Nunjucks templates. For example `{{'1.1.1'|wcagify}}`. If you need to return formatted HTML, use the supplied Macro or write your own.
+
+An example `server.js` might look something like the following:
+
+```javascript
+const nunjucks = require('nunjucks')
+const express = require('express')
+
+const app = express()
+
+const env = nunjucks.configure('src', { express: app, })
+
+// Add the Nunjucks filter
+const wcagify = require('wcagify')
+env.addFilter('wcagify', wcagify)
+```
+
 ### Nunjucks macro
 
-You can use WCAGify in your Nunjucks templates using a macro and filter. The macro needs a `string` value to work. For example:
+There is an included macro if you don't want to template your own Nunjucks. It needs a `string` value to work. For example:
 
 ```javascript
 // Nunjucks code
@@ -72,7 +103,7 @@ You can also pass in an object to set an ID and classes as optional parameters. 
 
 #### Installing the Nunjucks macro
 
-First, expose the location of the macro to your Nunjucks environment. An example `server.js` file might look something like the following:
+First, expose the location of the macro to your Nunjucks environment, and then make sure you've passed in the filter. The macro wont work without the filter as it calls it from inside the template. An example `server.js` file might look something like the following:
 
 ```javascript
 const path = require('path')
@@ -88,19 +119,19 @@ const paths = [
 ]
 
 const env = nunjucks.configure(paths, { express: app, })
-```
 
-Next, expose the WCAGify function to Nunjucks as a simple filter. This wont make the macro work yet, this functionality just means we have the ability to call WCAGify from inside the macro. For example `{{'1.1.1'|wcagify}}`. This would return an object, not the formatted anchor tag we need.
-
-```javascript
+// Add the Nunjucks filter
 const wcagify = require('wcagify')
 env.addFilter('wcagify', wcagify)
+
 ```
 
-Lastly, import the macro into your Nunjucks template and use it. For example:
+Import the macro into your Nunjucks template and use it. For example:
 
 ```javascript
+// Imports from the .njk file from the node_modules path
 {%- from 'wcagify.njk' import wcagify -%}
+
 {{ wcagify('1.1.1', {
   id: 'wcag-ref-1',
   class: 'link link--small'
