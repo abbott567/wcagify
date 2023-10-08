@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.3.3 Error Suggestion',
   ref: '3.3.3',
   name: 'Error Suggestion',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

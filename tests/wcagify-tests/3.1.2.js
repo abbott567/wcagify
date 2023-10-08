@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.1.2 Language of Parts',
   ref: '3.1.2',
   name: 'Language of Parts',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html',
   level: 'AA',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

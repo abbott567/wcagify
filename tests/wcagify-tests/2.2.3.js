@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.2.3 No Timing',
   ref: '2.2.3',
   name: 'No Timing',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/no-timing.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/no-timing.html',
   level: 'AAA',
   impacts: ['Auditory', 'Cognitive', 'Motor', 'Visual']
 }

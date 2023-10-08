@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.8 Visual Presentation',
   ref: '1.4.8',
   name: 'Visual Presentation',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html',
   level: 'AAA',
   impacts: ['Cognitive']
 }

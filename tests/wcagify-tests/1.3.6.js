@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.3.6 Identify Purpose',
   ref: '1.3.6',
   name: 'Identify Purpose',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/identify-purpose.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

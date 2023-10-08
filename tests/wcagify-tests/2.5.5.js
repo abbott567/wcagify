@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.5.5 Target Size',
   ref: '2.5.5',
   name: 'Target Size',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/target-size.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/target-size.html',
   level: 'AAA',
   impacts: ['Motor']
 }

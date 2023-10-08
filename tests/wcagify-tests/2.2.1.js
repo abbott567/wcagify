@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.2.1 Timing Adjustable',
   ref: '2.2.1',
   name: 'Timing Adjustable',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html',
   level: 'A',
   impacts: ['Auditory', 'Cognitive', 'Motor', 'Visual']
 }

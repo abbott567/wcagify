@@ -18,7 +18,7 @@ env.addFilter('wcagify', wcagify)
 describe('Nunjucks macro', () => {
   it('should render correctly when no params are provided', async () => {
     const expectedOutput = minify(`
-      <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+      <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
         1.1.1 Non-text Content
       </a>  
     `, minifyOpts)
@@ -29,7 +29,7 @@ describe('Nunjucks macro', () => {
 
   it('should render correctly when only an ID is provided', async () => {
     const expectedOutput = minify(`
-      <a id="wcag-1-1-1" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+      <a id="wcag-1-1-1" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
         1.1.1 Non-text Content
       </a>  
     `, minifyOpts)
@@ -40,7 +40,7 @@ describe('Nunjucks macro', () => {
 
   it('should render correctly when an ID and a single class is provided', async () => {
     const expectedOutput = minify(`
-      <a id="wcag-1-1-1" class="link" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+      <a id="wcag-1-1-1" class="link" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
         1.1.1 Non-text Content
       </a>  
     `, minifyOpts)
@@ -51,7 +51,7 @@ describe('Nunjucks macro', () => {
 
   it('should render correctly when an ID and a multiple classes are provided', async () => {
     const expectedOutput = minify(`
-      <a id="wcag-1-1-1" class="link link--small" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+      <a id="wcag-1-1-1" class="link link--small" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
         1.1.1 Non-text Content
       </a>  
     `, minifyOpts)
@@ -62,7 +62,7 @@ describe('Nunjucks macro', () => {
 
   it('should render correctly when only a single class is provided', async () => {
     const expectedOutput = minify(`
-      <a class="link" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+      <a class="link" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
         1.1.1 Non-text Content
       </a>  
     `, minifyOpts)
@@ -73,7 +73,7 @@ describe('Nunjucks macro', () => {
 
   it('should render correctly when only multiple classes are provided', async () => {
     const expectedOutput = minify(`
-      <a class="link link--small" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+      <a class="link link--small" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
         1.1.1 Non-text Content
       </a>  
     `, minifyOpts)

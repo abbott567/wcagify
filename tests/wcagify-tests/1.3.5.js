@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.3.5 Identify Input Purpose',
   ref: '1.3.5',
   name: 'Identify Input Purpose',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html',
   level: 'AA',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

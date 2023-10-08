@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.1.3 Keyboard (No Exception)',
   ref: '2.1.3',
   name: 'Keyboard (No Exception)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html',
   level: 'AAA',
   impacts: ['Motor']
 }

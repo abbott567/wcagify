@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.3.1 Error Identification',
   ref: '3.3.1',
   name: 'Error Identification',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html',
   level: 'A',
   impacts: ['Cognitive', 'Visual']
 }

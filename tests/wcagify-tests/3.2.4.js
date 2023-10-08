@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.2.4 Consistent Identification',
   ref: '3.2.4',
   name: 'Consistent Identification',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

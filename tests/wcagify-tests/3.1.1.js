@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.1.1 Language of Page',
   ref: '3.1.1',
   name: 'Language of Page',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html',
   level: 'A',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

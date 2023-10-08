@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.2 Captions (Prerecorded)',
   ref: '1.2.2',
   name: 'Captions (Prerecorded)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html',
   level: 'A',
   impacts: ['Auditory', 'Cognitive']
 }

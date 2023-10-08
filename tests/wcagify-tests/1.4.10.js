@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.10 Reflow',
   ref: '1.4.10',
   name: 'Reflow',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/reflow.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/reflow.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

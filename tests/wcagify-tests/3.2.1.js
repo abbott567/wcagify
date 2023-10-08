@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.2.1 On Focus',
   ref: '3.2.1',
   name: 'On Focus',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

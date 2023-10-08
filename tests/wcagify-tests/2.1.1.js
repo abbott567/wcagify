@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.1.1 Keyboard',
   ref: '2.1.1',
   name: 'Keyboard',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html',
   level: 'A',
   impacts: ['Motor', 'Visual']
 }

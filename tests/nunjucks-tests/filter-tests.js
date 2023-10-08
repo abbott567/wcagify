@@ -17,7 +17,7 @@ env.addFilter('wcagify', wcagify)
 // Test Nunjucks Macro
 describe('Nunjucks filter', () => {
   it("should render correctly when correct ref is provided: {{'1.1.1'|wcagify}}", async () => {
-    const expectedOutput = minify('{"criterion":"1.1.1 Non-text Content","ref":"1.1.1","name":"Non-text Content","link":"https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html","level":"A","impacts":["Auditory","Visual"]}', minifyOpts)
+    const expectedOutput = minify('{"criterion":"1.1.1 Non-text Content","ref":"1.1.1","name":"Non-text Content","link":"https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html","level":"A","impacts":["Auditory","Visual"]}', minifyOpts)
     const response = await minify(env.renderString("{{'1.1.1'|wcagify|dump|safe}}"), minifyOpts)
     const result = minify(response, minifyOpts)
     expect(result).to.eql(expectedOutput)

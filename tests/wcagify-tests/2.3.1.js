@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.3.1 Three Flashes or Below Threshold',
   ref: '2.3.1',
   name: 'Three Flashes or Below Threshold',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html',
   level: 'A',
   impacts: ['Cognitive', 'Visual']
 }

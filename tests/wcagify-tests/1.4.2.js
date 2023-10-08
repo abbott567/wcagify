@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.2 Audio Control',
   ref: '1.4.2',
   name: 'Audio Control',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html',
   level: 'A',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.3.5 Help',
   ref: '3.3.5',
   name: 'Help',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/help.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/help.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Motor']
 }

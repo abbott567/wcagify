@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.9 Images of Text (No Exception)',
   ref: '1.4.9',
   name: 'Images of Text (No Exception)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/images-of-text-no-exception.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

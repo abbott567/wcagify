@@ -1,6 +1,6 @@
 {
   "name": "wcagify",
-  "description": "A lookup for WCAG 2.1 references. Handy for those doing accessibility audits and are sick of the constant copying and pasting.",
+  "description": "A lookup for WCAG 2.2 references. Handy for those doing accessibility audits and are sick of the constant copying and pasting.",
   "version": "1.4.1",
   "main": "wcagify.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "keywords": [
     "WCAG",
     "WCAG 2.1",
+    "WCAG 2.2",
     "Web Content Accessibility Guidelines",
     "Accessibility"
   ],

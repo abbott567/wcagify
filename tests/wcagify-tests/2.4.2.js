@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.2 Page Titled',
   ref: '2.4.2',
   name: 'Page Titled',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

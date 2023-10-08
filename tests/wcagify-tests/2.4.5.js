@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.5 Multiple Ways',
   ref: '2.4.5',
   name: 'Multiple Ways',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

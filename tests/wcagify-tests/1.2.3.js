@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.3 Audio Description or Media Alternative (Prerecorded)',
   ref: '1.2.3',
   name: 'Audio Description or Media Alternative (Prerecorded)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html',
   level: 'A',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

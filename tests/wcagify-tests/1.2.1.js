@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.1 Audio-only and Video-only (Prerecorded)',
   ref: '1.2.1',
   name: 'Audio-only and Video-only (Prerecorded)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html',
   level: 'A',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

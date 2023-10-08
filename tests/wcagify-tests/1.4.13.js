@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.13 Content on Hover or Focus',
   ref: '1.4.13',
   name: 'Content on Hover or Focus',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html',
   level: 'AA',
   impacts: ['Motor', 'Visual']
 }

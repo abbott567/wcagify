@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.6 Headings and Labels',
   ref: '2.4.6',
   name: 'Headings and Labels',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

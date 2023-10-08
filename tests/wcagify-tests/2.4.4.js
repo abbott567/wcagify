@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.4 Link Purpose (In Context)',
   ref: '2.4.4',
   name: 'Link Purpose (In Context)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

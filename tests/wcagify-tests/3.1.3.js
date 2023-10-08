@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.1.3 Unusual Words',
   ref: '3.1.3',
   name: 'Unusual Words',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

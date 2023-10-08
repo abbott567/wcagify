@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.3.2 Three Flashes',
   ref: '2.3.2',
   name: 'Three Flashes',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

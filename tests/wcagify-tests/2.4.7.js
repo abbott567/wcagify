@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.7 Focus Visible',
   ref: '2.4.7',
   name: 'Focus Visible',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html',
   level: 'AA',
   impacts: ['Cognitive', 'Motor']
 }

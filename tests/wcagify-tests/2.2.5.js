@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.2.5 Re-authenticating',
   ref: '2.2.5',
   name: 'Re-authenticating',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/re-authenticating.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html',
   level: 'AAA',
   impacts: ['Auditory', 'Cognitive', 'Motor', 'Visual']
 }

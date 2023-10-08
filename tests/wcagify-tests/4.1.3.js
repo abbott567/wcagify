@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '4.1.3 Status Messages',
   ref: '4.1.3',
   name: 'Status Messages',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

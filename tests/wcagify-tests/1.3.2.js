@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.3.2 Meaningful Sequence',
   ref: '1.3.2',
   name: 'Meaningful Sequence',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

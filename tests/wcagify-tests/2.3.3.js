@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.3.3 Animation from Interactions',
   ref: '2.3.3',
   name: 'Animation from Interactions',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

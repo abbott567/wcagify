@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.1 Use of Color',
   ref: '1.4.1',
   name: 'Use of Color',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html',
   level: 'A',
   impacts: ['Cognitive', 'Visual']
 }

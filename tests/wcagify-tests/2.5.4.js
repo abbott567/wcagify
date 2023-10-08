@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.5.4 Motion Actuation',
   ref: '2.5.4',
   name: 'Motion Actuation',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html',
   level: 'A',
   impacts: ['Motor']
 }

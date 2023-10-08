@@ -9,7 +9,7 @@ You can use WCAGify in your Nunjucks templates using a macro and filter. The mac
 
 ```html
 <!-- Output when compiled -->
-<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+<a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
   1.1.1 Non-text Content
 </a>
 ```
@@ -26,7 +26,7 @@ You can also pass in an object to set an ID and classes as optional parameters. 
 
 ```html
 <!-- Output when compiled -->
-<a id="wcag-ref-1" class="link link--small" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+<a id="wcag-ref-1" class="link link--small" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
   1.1.1 Non-text Content
 </a>
 ```

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.3.4 Error Prevention (Legal, Financial, Data)',
   ref: '3.3.4',
   name: 'Error Prevention (Legal, Financial, Data)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html',
   level: 'AA',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

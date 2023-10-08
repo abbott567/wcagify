@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.10 Section Headings',
   ref: '2.4.10',
   name: 'Section Headings',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

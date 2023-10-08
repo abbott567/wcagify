@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.2.2 On Input',
   ref: '3.2.2',
   name: 'On Input',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/on-input.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/on-input.html',
   level: 'A',
   impacts: ['Cognitive', 'Visual']
 }

@@ -2,7 +2,7 @@
 
 WCAGify is a simple function for people who need to reference the Web Content Accessibility Guidelines frequently and are tired of copying and pasting.
 
-WCAGify looks up WCAG 2.1 criteria based on a reference number supplied as a string and returns an object with the URL and name etc. It means you don't have to get the criterion name 100% correct as long as you know the reference number. It also adds consistency to your reports by returning the name exactly as it's formatted in the WCAG 2.1 standard.
+WCAGify looks up WCAG 2.2 criteria based on a reference number supplied as a string and returns an object with the URL and name etc. It means you don't have to get the criterion name 100% correct as long as you know the reference number. It also adds consistency to your reports by returning the name exactly as it's formatted in the WCAG 2.2 standard.
 
 ## Usage
 
@@ -31,7 +31,7 @@ wcagify('1.1.1 Potato')
   criterion: '1.1.1 Non-text Content',
   ref: '1.1.1',
   name: 'Non-text Content',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html',
   level: 'A',
   impacts: ['Auditory', 'Visual']
 }
@@ -46,7 +46,7 @@ You can use WCAGify in your Nunjucks templates using a filter. The filter needs 
 {{issue.criterion}} // 1.1.1 Non-text Content
 {{issue.name}} // Non-text Content
 {{issue.ref}} // 1.1.1
-{{issue.url}} // https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html
+{{issue.url}} // https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html
 ```
 
 #### Installing the Nunjucks filter
@@ -79,7 +79,7 @@ There is an included macro if you don't want to template your own Nunjucks. It n
 
 ```html
 <!-- Output when compiled -->
-<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+<a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
   1.1.1 Non-text Content
 </a>
 ```
@@ -96,7 +96,7 @@ You can also pass in an object to set an ID and classes as optional parameters. 
 
 ```html
 <!-- Output when compiled -->
-<a id="wcag-ref-1" class="link link--small" href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+<a id="wcag-ref-1" class="link link--small" href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
   1.1.1 Non-text Content
 </a>
 ```
@@ -149,7 +149,7 @@ You can use WCAGify in your Markdown templates using [MarkedJS](https://www.npmj
 
 ```html
 <!-- Output when compiled -->
-<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+<a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
   1.1.1 Non-text Content
 </a>
 ```

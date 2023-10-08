@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.3.1 Info and Relationships',
   ref: '1.3.1',
   name: 'Info and Relationships',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

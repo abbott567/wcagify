@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.3.3 Sensory Characteristics',
   ref: '1.3.3',
   name: 'Sensory Characteristics',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html',
   level: 'A',
   impacts: ['Cognitive', 'Visual']
 }

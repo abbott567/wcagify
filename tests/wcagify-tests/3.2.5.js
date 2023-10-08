@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.2.5 Change on Request',
   ref: '3.2.5',
   name: 'Change on Request',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/change-on-request.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

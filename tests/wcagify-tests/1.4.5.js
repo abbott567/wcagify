@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.5 Images of Text',
   ref: '1.4.5',
   name: 'Images of Text',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

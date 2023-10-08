@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.1.4 Character Key Shortcuts',
   ref: '2.1.4',
   name: 'Character Key Shortcuts',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

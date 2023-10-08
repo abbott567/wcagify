@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.6 Sign Language (Prerecorded)',
   ref: '1.2.6',
   name: 'Sign Language (Prerecorded)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html',
   level: 'AAA',
   impacts: ['Auditory']
 }

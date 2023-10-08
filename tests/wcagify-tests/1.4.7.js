@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.7 Low or No Background Audio',
   ref: '1.4.7',
   name: 'Low or No Background Audio',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html',
   level: 'AAA',
   impacts: ['Auditory', 'Cognitive']
 }

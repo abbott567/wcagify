@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.8 Location',
   ref: '2.4.8',
   name: 'Location',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/location.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/location.html',
   level: 'AAA',
   impacts: ['Cognitive']
 }

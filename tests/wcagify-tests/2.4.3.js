@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.3 Focus Order',
   ref: '2.4.3',
   name: 'Focus Order',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

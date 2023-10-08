@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.1.6 Pronunciation',
   ref: '3.1.6',
   name: 'Pronunciation',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/pronunciation.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

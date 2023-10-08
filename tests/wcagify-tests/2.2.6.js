@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.2.6 Timeouts',
   ref: '2.2.6',
   name: 'Timeouts',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html',
   level: 'AAA',
   impacts: ['Auditory', 'Cognitive', 'Motor', 'Visual']
 }

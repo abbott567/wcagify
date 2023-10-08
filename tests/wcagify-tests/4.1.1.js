@@ -6,9 +6,9 @@ const expectedResult = {
   criterion: '4.1.1 Parsing',
   ref: '4.1.1',
   name: 'Parsing',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/parsing.html',
-  level: 'A',
-  impacts: ['Cognitive', 'Motor', 'Visual']
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/parsing.html',
+  level: 'Removed',
+  impacts: []
 }
 
 describe(expectedResult.criterion, () => {

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.2.2 Pause, Stop, Hide',
   ref: '2.2.2',
   name: 'Pause, Stop, Hide',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

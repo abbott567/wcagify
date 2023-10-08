@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.7 Extended Audio Description (Prerecorded)',
   ref: '1.2.7',
   name: 'Extended Audio Description (Prerecorded)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html',
   level: 'AAA',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

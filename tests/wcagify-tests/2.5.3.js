@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.5.3 Label in Name',
   ref: '2.5.3',
   name: 'Label in Name',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html',
   level: 'A',
   impacts: ['Motor', 'Visual']
 }

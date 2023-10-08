@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.1.2 No Keyboard Trap',
   ref: '2.1.2',
   name: 'No Keyboard Trap',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html',
   level: 'A',
   impacts: ['Motor', 'Visual']
 }

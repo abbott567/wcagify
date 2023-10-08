@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.11 Non-text Contrast',
   ref: '1.4.11',
   name: 'Non-text Contrast',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html',
   level: 'AA',
   impacts: ['Visual']
 }

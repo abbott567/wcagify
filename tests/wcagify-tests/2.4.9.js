@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.9 Link Purpose (Link Only)',
   ref: '2.4.9',
   name: 'Link Purpose (Link Only)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-link-only.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

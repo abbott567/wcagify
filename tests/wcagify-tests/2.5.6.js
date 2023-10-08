@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.5.6 Concurrent Input Mechanisms',
   ref: '2.5.6',
   name: 'Concurrent Input Mechanisms',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html',
   level: 'AAA',
   impacts: ['Motor']
 }

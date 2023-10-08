@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.1.4 Abbreviations',
   ref: '3.1.4',
   name: 'Abbreviations',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/abbreviations.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }

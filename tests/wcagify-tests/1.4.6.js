@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.6 Contrast (Enhanced)',
   ref: '1.4.6',
   name: 'Contrast (Enhanced)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html',
   level: 'AAA',
   impacts: ['Visual']
 }

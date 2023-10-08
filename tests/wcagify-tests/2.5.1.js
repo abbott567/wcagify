@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.5.1 Pointer Gestures',
   ref: '2.5.1',
   name: 'Pointer Gestures',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor']
 }

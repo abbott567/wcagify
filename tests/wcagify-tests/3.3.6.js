@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.3.6 Error Prevention (All)',
   ref: '3.3.6',
   name: 'Error Prevention (All)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-all.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

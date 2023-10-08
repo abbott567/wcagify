@@ -9,7 +9,7 @@ You can use WCAGify in your Markdown templates using MarkedJS as the renderer.
 
 ```html
 <!-- Output when compiled -->
-<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">
+<a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">
   1.1.1 Non-text Content
 </a>
 ```

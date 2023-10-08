@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.3.2 Labels or Instructions',
   ref: '3.3.2',
   name: 'Labels or Instructions',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html',
   level: 'A',
   impacts: ['Cognitive', 'Visual']
 }

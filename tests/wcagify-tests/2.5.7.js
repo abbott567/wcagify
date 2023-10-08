@@ -3,12 +3,12 @@ const { expect } = require('chai')
 const wcagify = require('../../wcagify')
 
 const expectedResult = {
-  criterion: '1.2.9 Audio-only (Live)',
-  ref: '1.2.9',
-  name: 'Audio-only (Live)',
-  link: 'https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html',
-  level: 'AAA',
-  impacts: ['Auditory']
+  criterion: '2.5.7 Dragging Movements',
+  ref: '2.5.7',
+  name: 'Dragging Movements',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html',
+  level: 'AA',
+  impacts: ['Motor']
 }
 
 describe(expectedResult.criterion, () => {

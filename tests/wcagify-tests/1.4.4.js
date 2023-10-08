@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.4 Resize text',
   ref: '1.4.4',
   name: 'Resize text',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

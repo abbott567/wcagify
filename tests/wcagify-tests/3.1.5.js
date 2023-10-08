@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.1.5 Reading Level',
   ref: '3.1.5',
   name: 'Reading Level',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html',
   level: 'AAA',
   impacts: ['Cognitive']
 }

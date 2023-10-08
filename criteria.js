@@ -312,6 +312,24 @@ module.exports = [
     impacts: ['Cognitive', 'Motor', 'Visual']
   },
   {
+    name: 'Focus Not Obscured (Minimum)',
+    ref: '2.4.11',
+    level: 'AA',
+    impacts: ['Motor', 'Visual']
+  },
+  {
+    name: 'Focus Not Obscured (Enhanced)',
+    ref: '2.4.12',
+    level: 'AAA',
+    impacts: ['Motor', 'Visual']
+  },
+  {
+    name: 'Focus Appearance',
+    ref: '2.4.13',
+    level: 'AAA',
+    impacts: ['Motor', 'Visual']
+  },
+  {
     name: 'Pointer Gestures',
     ref: '2.5.1',
     level: 'A',
@@ -345,6 +363,18 @@ module.exports = [
     name: 'Concurrent Input Mechanisms',
     ref: '2.5.6',
     level: 'AAA',
+    impacts: ['Motor']
+  },
+  {
+    name: 'Dragging Movements',
+    ref: '2.5.7',
+    level: 'AA',
+    impacts: ['Motor']
+  },
+  {
+    name: 'Target Size (Minimum)',
+    ref: '2.5.8',
+    level: 'AA',
     impacts: ['Motor']
   },
   {
@@ -414,6 +444,12 @@ module.exports = [
     impacts: ['Cognitive', 'Visual']
   },
   {
+    name: 'Consistent Help',
+    ref: '3.2.6',
+    level: 'A',
+    impacts: ['Cognitive']
+  },
+  {
     name: 'Error Identification',
     ref: '3.3.1',
     level: 'A',
@@ -450,10 +486,28 @@ module.exports = [
     impacts: ['Cognitive', 'Motor', 'Visual']
   },
   {
+    name: 'Redundant Entry',
+    ref: '3.3.7',
+    level: 'A',
+    impacts: ['Cognitive', 'Motor']
+  },
+  {
+    name: 'Accessible Authentication (Minimum)',
+    ref: '3.3.8',
+    level: 'AA',
+    impacts: ['Cognitive']
+  },
+  {
+    name: 'Accessible Authentication (Enhanced)',
+    ref: '3.3.9',
+    level: 'AAA',
+    impacts: ['Cognitive']
+  },
+  {
     name: 'Parsing',
     ref: '4.1.1',
-    level: 'A',
-    impacts: ['Cognitive', 'Motor', 'Visual']
+    level: 'Removed',
+    impacts: []
   },
   {
     name: 'Name, Role, Value',

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.8 Media Alternative (Prerecorded)',
   ref: '1.2.8',
   name: 'Media Alternative (Prerecorded)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html',
   level: 'AAA',
   impacts: ['Auditory', 'Cognitive', 'Visual']
 }

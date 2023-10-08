@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.12 Text Spacing',
   ref: '1.4.12',
   name: 'Text Spacing',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

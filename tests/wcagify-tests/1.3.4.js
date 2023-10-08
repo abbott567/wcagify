@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.3.4 Orientation',
   ref: '1.3.4',
   name: 'Orientation',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/orientation.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/orientation.html',
   level: 'AA',
   impacts: ['Motor', 'Visual']
 }

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '3.2.3 Consistent Navigation',
   ref: '3.2.3',
   name: 'Consistent Navigation',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation.html',
   level: 'AA',
   impacts: ['Cognitive', 'Visual']
 }

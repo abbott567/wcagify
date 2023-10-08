@@ -1,7 +1,7 @@
 const slugify = require('slugify')
 const criteria = require('./criteria')
 
-const wcagpath = 'https://www.w3.org/WAI/WCAG21/Understanding'
+const wcagpath = 'https://www.w3.org/WAI/WCAG22/Understanding'
 
 function wcagify (string) {
   const notFound = new Error(`${string}: No WCAG reference found`)

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.2.4 Captions (Live)',
   ref: '1.2.4',
   name: 'Captions (Live)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html',
   level: 'AA',
   impacts: ['Auditory', 'Cognitive']
 }

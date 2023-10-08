@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.4.3 Contrast (Minimum)',
   ref: '1.4.3',
   name: 'Contrast (Minimum)',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html',
   level: 'AA',
   impacts: ['Visual']
 }

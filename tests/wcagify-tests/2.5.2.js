@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.5.2 Pointer Cancellation',
   ref: '2.5.2',
   name: 'Pointer Cancellation',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

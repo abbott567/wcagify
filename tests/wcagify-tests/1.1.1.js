@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '1.1.1 Non-text Content',
   ref: '1.1.1',
   name: 'Non-text Content',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html',
   level: 'A',
   impacts: ['Auditory', 'Visual']
 }

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '4.1.2 Name, Role, Value',
   ref: '4.1.2',
   name: 'Name, Role, Value',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

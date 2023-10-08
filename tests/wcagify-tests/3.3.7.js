@@ -3,12 +3,12 @@ const { expect } = require('chai')
 const wcagify = require('../../wcagify')
 
 const expectedResult = {
-  criterion: '1.2.9 Audio-only (Live)',
-  ref: '1.2.9',
-  name: 'Audio-only (Live)',
-  link: 'https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html',
-  level: 'AAA',
-  impacts: ['Auditory']
+  criterion: '3.3.7 Redundant Entry',
+  ref: '3.3.7',
+  name: 'Redundant Entry',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html',
+  level: 'A',
+  impacts: ['Cognitive', 'Motor']
 }
 
 describe(expectedResult.criterion, () => {

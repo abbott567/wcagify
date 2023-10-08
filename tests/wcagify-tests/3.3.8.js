@@ -3,12 +3,12 @@ const { expect } = require('chai')
 const wcagify = require('../../wcagify')
 
 const expectedResult = {
-  criterion: '1.2.9 Audio-only (Live)',
-  ref: '1.2.9',
-  name: 'Audio-only (Live)',
-  link: 'https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html',
-  level: 'AAA',
-  impacts: ['Auditory']
+  criterion: '3.3.8 Accessible Authentication (Minimum)',
+  ref: '3.3.8',
+  name: 'Accessible Authentication (Minimum)',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html',
+  level: 'AA',
+  impacts: ['Cognitive']
 }
 
 describe(expectedResult.criterion, () => {

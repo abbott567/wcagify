@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.4.1 Bypass Blocks',
   ref: '2.4.1',
   name: 'Bypass Blocks',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html',
   level: 'A',
   impacts: ['Cognitive', 'Motor', 'Visual']
 }

@@ -6,7 +6,7 @@ const expectedResult = {
   criterion: '2.2.4 Interruptions',
   ref: '2.2.4',
   name: 'Interruptions',
-  link: 'https://www.w3.org/WAI/WCAG21/Understanding/interruptions.html',
+  link: 'https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html',
   level: 'AAA',
   impacts: ['Cognitive', 'Visual']
 }
